@@ -1,6 +1,7 @@
 {
   "name": "saumik-and-pranita",
   "version": "0.1.0",
+  "homepage": "https://saumik-and-pranita.github.io/wedding-invitation",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
