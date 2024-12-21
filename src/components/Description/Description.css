@@ -1,0 +1,19 @@
+.description-text {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  max-width: 60%;
+  color: #534343;
+  text-align: justify;
+  font-style: italic;
+  line-height: 35px;
+}
+
+@media only screen and (max-width: 468px) {
+  .description-text {
+    max-width: 90%;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 2;
+  }
+}

@@ -1,0 +1,18 @@
+.candidate-tile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.candidate-tile.reverse {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 468px) {
+  .candidate-tile,
+  .candidate-tile.reverse {
+    flex-direction: column;
+  }
+}

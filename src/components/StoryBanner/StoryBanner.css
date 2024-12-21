@@ -1,0 +1,19 @@
+.story-banner-container {
+  height: 700px;
+  margin: 50px 0 0;
+}
+
+.story-banner {
+  height: 700px;
+}
+
+@media only screen and (max-width: 468px) {
+  .story-banner-container {
+    height: 200px;
+    margin: 50px 0 0;
+  }
+
+  .story-banner {
+    height: 200px;
+  }
+}

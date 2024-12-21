@@ -1,0 +1,39 @@
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.logo-text {
+  vertical-align: middle;
+  margin-left: 20px;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #970747;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0.5;
+  background-color: rgb(254 248 250 / 50%) !important;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 5;
+}
+
+.scrolled-down-header {
+  background-color: #fdfbfc !important;
+}
+
+@media only screen and (max-width: 468px) {
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .logo-text {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}

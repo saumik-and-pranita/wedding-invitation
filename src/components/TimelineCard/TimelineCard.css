@@ -1,0 +1,115 @@
+.timeline-card-title {
+  font-family: "Alex Brush", cursive;
+  font-size: 44px;
+  color: #970747;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.timeline-card-title:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 2px;
+  width: 65%;
+  background: #970747;
+  left: 0;
+}
+
+.timeline-card-title:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  height: 2px;
+  width: 80%;
+  background: #970747;
+  left: 0;
+}
+
+.timeline-card-cover-container {
+  margin: 0;
+}
+
+.timeline-card-cover-container .timeline-card-cover {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  border-radius: 0.25em 0.25em 0 0;
+}
+
+.timeline-card-details {
+  padding: 20px;
+}
+
+.timeline-card-poem {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #bc808e;
+}
+
+.timeline-card-event-details {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeline-card-event-details .event-info-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.timeline-card-event-details .event-info-container.no-location-visualisation {
+  width: 90%;
+}
+
+.timeline-card-event-details .event-info-container .event-info {
+  margin-left: 10px;
+  vertical-align: bottom;
+  color: #534343;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.timeline-card-event-details .event-info-container .event-icon {
+  min-width: 20px;
+}
+
+.timeline-card-event-details .location-qr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-card-event-details .location-qr-container .location-qr {
+  height: 140px;
+  width: 140px;
+}
+
+@media only screen and (max-width: 468px) {
+  .timeline-card-event-details {
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px auto;
+  }
+
+  .timeline-card-cover-container .timeline-card-cover {
+    height: 185px;
+  }
+
+  .timeline-card-title {
+    font-size: 32px;
+  }
+
+  .timeline-card-event-details .event-info-container .event-info {
+    font-size: 9px;
+  }
+
+  .timeline-card-event-details .location-qr-container .location-qr {
+    height: 180px;
+    width: 180px;
+  }
+}

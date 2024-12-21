@@ -1,0 +1,28 @@
+.story-banner-text-container {
+  height: 700px;
+  align-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.story-banner-text-container .story-banner-text {
+  color: #534343;
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  line-height: 60px;
+}
+
+@media only screen and (max-width: 468px) {
+  .story-banner-text-container {
+    height: 200px;
+  }
+
+  .story-banner-text-container .story-banner-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+  }
+}

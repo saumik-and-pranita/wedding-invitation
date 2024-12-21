@@ -1,0 +1,43 @@
+.countdown {
+  display: grid;
+  gap: 15px;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.countdown.four-column-layout {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.countdown.three-column-layout {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.countdown .countdown-item {
+  display: flex;
+  justify-content: center;
+  font-family: "Orbitron", serif;
+  color: #bc808e;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.countdown .countdown-item.number {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 468px) {
+  .countdown {
+    width: 100%;
+    margin: 30px auto 0;
+  }
+
+  .countdown .countdown-item {
+    font-size: 10px;
+  }
+
+  .countdown .countdown-item.number {
+    font-size: 28px;
+  }
+}

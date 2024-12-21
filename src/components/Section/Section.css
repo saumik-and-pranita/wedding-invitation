@@ -1,0 +1,11 @@
+.page-section {
+  padding-top: 120px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 468px) {
+  .page-section {
+    padding-top: 80px;
+  }
+}

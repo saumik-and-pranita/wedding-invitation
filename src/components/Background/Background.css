@@ -1,0 +1,49 @@
+.background-img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+
+.background-img-text {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background-img-text-heading {
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+}
+
+.background-img-text--sub-heading {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 468px) {
+  .background-img-text-heading {
+    font-size: 65px;
+    text-align: center;
+  }
+
+  .background-img-text--sub-heading {
+    font-size: 8px;
+  }
+}

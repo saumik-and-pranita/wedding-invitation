@@ -1,0 +1,35 @@
+.page-footer {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #970747;
+  margin-top: 120px;
+}
+
+.page-footer .hashtag {
+  color: #fff;
+  font-size: 120px;
+  font-weight: 100;
+  letter-spacing: 0px;
+}
+
+.page-footer .share-the-day {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 468px) {
+  .page-footer .hashtag {
+    font-size: 75px;
+  }
+
+  .page-footer .share-the-day {
+    font-size: 8px;
+  }
+}
