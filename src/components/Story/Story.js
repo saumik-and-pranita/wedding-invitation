@@ -1,4 +1,4 @@
-import groom from '../../assets/Saumik.jpeg';
+import groom from '../../assets/Saumik.jpg';
 import bride from '../../assets/Pranita.jpg';
 import { SectionHeading } from '../SectionHeading/SectionHeading';
 import { SectionSubHeading } from '../SectionSubHeading/SectionSubHeading';

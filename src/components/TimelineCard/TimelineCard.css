@@ -107,9 +107,11 @@
   .timeline-card-event-details .event-info-container .event-info {
     font-size: 9px;
   }
+}
 
+@media only screen and (max-width: 768px) {
   .timeline-card-event-details .location-qr-container .location-qr {
-    height: 180px;
-    width: 180px;
+    height: 100px;
+    width: 100px;
   }
 }

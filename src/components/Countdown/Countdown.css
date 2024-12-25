@@ -41,3 +41,13 @@
     font-size: 28px;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .countdown .countdown-item {
+    font-size: 8px;
+  }
+
+  .countdown .countdown-item.number {
+    font-size: 20px;
+  }
+}
