@@ -31,7 +31,7 @@ export function EventTimeline() {
         title="Wedding"
         coverImage={weddingCover}
         description="With vows exchanged and hearts alight, they step together into forever’s light."
-        dateText="Monday, March 03, 2024 - 7PM Onwards"
+        dateText="Monday, March 03, 2025 - 7PM Onwards"
         location="URSA Garden, North K.B. Sarani, K.B. Sarani, Mall Road, Golpark, South Dumdum, Kolkata - 700080"
         arrowColor="#edaf75"
         date="2025-03-03T19:00:00+0530"
@@ -43,7 +43,7 @@ export function EventTimeline() {
         title="Reception"
         coverImage={receptionCover}
         description="Surrounded by family & friends, with love in the air, the start of forever, a moment so rare."
-        dateText="Saturday, March 08, 2024 - 7PM to 11PM"
+        dateText="Saturday, March 08, 2025 - 7PM to 11PM"
         location="Prisha banquet, 3rd Floor, Swastik Gloria High Point, Near Zudio Star Bazaar, Ovala Naka, Ghodbunder Road, Thane West - 400615"
         arrowColor="#a8826d"
         date="2025-03-08T19:00:00+0530"
